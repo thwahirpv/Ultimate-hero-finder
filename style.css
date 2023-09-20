@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* this is full body div */
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background: rgb(52, 2, 52); */
+    background-image: url(images/2151362.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heros-box{
+    width: 70%;
+    height: 80%;
+    /* background: rgb(51, 5, 51); */
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 29px 10px  rgb(39, 4, 39); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.inner-box{
+    display: flex;
+    column-gap: 20px;
+}
+
+.name-image{
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 29px 10px  rgb(39, 4, 39);
+    border-radius: 10px;
+}
+.image-div > img {
+    border-radius: 10px;
+}
+
+.powerstats{
+    width: 200px;
+    height: 300px;
+    box-shadow: 1px 1px 29px 10px  rgb(39, 4, 39);
+    background: rgba(0, 0, 0, 0.325);
+    color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.powerstats > p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3px;
+    color: white;
+}
+.powerstats > h2 {
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.get-hero-btn{
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: rgba(0, 128, 0, 0.544);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    transition: .8s all;
+}
+.get-hero-btn:hover{
+    background: rgba(0, 128, 0, 0.759);
+}
+.input-section{
+    display: flex;
+    column-gap: 10px;
+}
+.input-btn{
+    padding: 6px 6px;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgba(0, 128, 0, 0.759);
+    border-radius: 10px;
+}
+#searchHero{
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
